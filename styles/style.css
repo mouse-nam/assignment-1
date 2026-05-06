@@ -13,7 +13,10 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 26px 221px 44px 221px;
 }
 
@@ -27,8 +30,14 @@
 .banner-description {
   font-size: 16px;
   color: #0d1321;
-
   text-align: center;
+}
+
+.text-part {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-me-btn {
@@ -40,4 +49,5 @@
   font-weight: 600px;
   color: #ffffff;
   background-color: #0d1321;
+  text-align: center;
 }
