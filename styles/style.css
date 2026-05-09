@@ -82,3 +82,65 @@
   flex-direction: row;
   align-items: center;
 }
+
+/*"my inspiration section style start "*/
+
+.my-inspiration {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.inspiration-text-part {
+  padding-bottom: 48px;
+  padding-left: 144px;
+  padding-right: 144px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* my current target section started*/
+/* .target {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+.current-target {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target-context-part {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 97px;
+}
+.target-action {
+  display: flex;
+  flex-direction: row;
+}
+.action-one {
+  border: 2px solid black;
+  text-align: center;
+  margin-right: 24px;
+  padding: 40px 40px;
+  background-color: #ff4c1e;
+}
+.action-two {
+  border: 2px solid red;
+  text-align: center;
+  margin-right: 24px;
+  padding: 40px 40px;
+}
+.action-three {
+  border: 2px solid blue;
+  text-align: center;
+  padding: 40px 40px;
+}
